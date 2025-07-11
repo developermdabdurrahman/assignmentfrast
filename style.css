@@ -28,16 +28,24 @@
     display: block;
 }
 .default-btn {
-	color: #fff;
-	padding: 12px 36px;
-	background: #4E47FF;
-	display: inline-block;
-	font-size: 16px;
-	font-weight: 600;
-	margin-left: 5px;
-	margin-right: 5px;
-    border-radius: 10px;
-    transition:.4s;
+  color: #fff;
+  padding: 12px 36px;
+  background: #4E47FF;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  transition: 0.4s;
+  border: none;
+  cursor: pointer;
+}
+
+.default-btn:hover {
+  background-color: #F0C40F;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 .primary-color{
     color: #4E47FF;
@@ -210,11 +218,48 @@ button {
   padding: 12px;
   font-size: 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 button:hover {
-  background-color: #254eda;
+    background-color: #F0C40F;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+footer{
+    text-align: center;
+    padding: 200px;
+    background-color: white;
+}
+footer ul{
+display: flex;
+margin: auto;
+align-items: center;
+justify-self: center;
+margin-top: 30px;
+gap: 50px;
+
+}
+footer ul li{
+    decoration: none;
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+     color: #252432;
+    opacity: 50%;
+}
+footer h1{
+    font-size: 100px;
+    color: #4E47FF;
+}
+footer p{
+    font-size: 20px;
+    color: #252432;
+    opacity: 50%;
 }
