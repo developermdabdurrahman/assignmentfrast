@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.default-btn {
+	color: #fff;
+	padding: 12px 36px;
+	background: #4E47FF;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 5px;
+	margin-right: 5px;
+    border-radius: 10px;
+    transition:.4s;
+}
+.primary-color{
+    color: #4E47FF;
+}
+body{
+    background-color: #F6F8FF;
+}
+
+.logo{
+    font-size: 34px;
+    font-weight: bold;
+}
+img{
+    max-width: 100%;
+}
+.mid-content{
+max-width: 1400px;
+margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    align-items: center;
+    
+}
+nav h2{
+    font-size: 34;
+}
+.header-section{
+background-image: url('Assets/Hero-bg.png');
+}
+
+.banner{
+    padding: 150px 200px;
+}
+.banner-caption h1{
+font-size: 65px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.action-content{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+.action-img{
+    border-radius: 30px;
+}
+.action-text h1{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+}
+.action-text p{
+    font-size: 24px;
+    padding-bottom: 20px;
+    color: #252432;
+    opacity: 50%;
+}
+.action-text button{
+    text-align: center;
+
+    align-items: center;
+}
+
+.centered-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productive{
+    align-items: center;
+    background: #E5E6FF;
+border-radius:30px ;
+    padding: 80px 50px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    padding: 50px 80px;
+    margin:80px 50px;
+    
+    
+}
+.productive h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    
+}
+.centered-item h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+.centered-item p{
+    font-size: 20px;
+    color: #252432;
+    opacity: 50%;
+}
+.centered-title{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+
+}
+.contact-colum h1{
+    font-size: 97px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+.contact-colum{
+    
+    text-align: start;
+    align-items: center;
+    padding: 0px 110px;
+    margin-top: 200px;
+    
+}
+.contact{
+    display: flex;
+    
+    
+}
+
+
+
+.form-container {
+
+  padding: 30px;
+  border-radius: 10px;
+  margin: 50px 0;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 16px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 135px;
+}
+
+button {
+  background-color: #3366ff;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #254eda;
+}
