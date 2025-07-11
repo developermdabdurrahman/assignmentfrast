@@ -62,7 +62,7 @@ img{
     max-width: 100%;
 }
 .mid-content{
-max-width: 1300px;
+max-width: 1140px;
 margin: 0 auto;
 padding: 20px;
 }
@@ -87,6 +87,7 @@ background-image: url("https://i.ibb.co/dsBDcgtg/Hero-bg.png");
 .banner-caption h1{
 font-size: 65px;
 font-weight: bold;
+margin-top: 158px;
 margin-bottom: 20px;
 }
 .action-content{
@@ -102,11 +103,11 @@ margin-bottom: 20px;
 .action-text h1{
     font-size: 42px;
     font-weight: bold;
-    padding: 0 0 20px 0;
+    margin: 0 0 23px 0;
 }
 .action-text p{
     font-size: 24px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     color: #252432;
     opacity: 50%;
 }
@@ -139,6 +140,10 @@ border-radius:30px ;
     font-weight: bold;
     
 }
+.prersonal-data{
+    color: #252432;
+    opacity: 50%;
+}
 .centered-item h1{
     font-size: 80px;
     font-weight: bold;
@@ -160,6 +165,7 @@ border-radius:30px ;
     font-weight: bold;
     text-align: center;
     align-items: center;
+    font-family: sans-serif;
 }
 .contact-colum{
     
@@ -190,6 +196,7 @@ border-radius:30px ;
 form {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 label {
@@ -201,7 +208,7 @@ input,
 textarea {
   padding: 12px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   border-radius: 5px;
   background-color: white;
   font-size: 16px;
@@ -210,7 +217,7 @@ textarea {
 }
 
 textarea {
-  resize: vertical;
+  
   min-height: 135px;
 }
 
@@ -248,7 +255,7 @@ gap: 50px;
 
 }
 footer ul li{
-    decoration: none;
+    direction: none;
     list-style: none;
 }
 footer ul li a{
@@ -262,6 +269,99 @@ footer h1{
 }
 footer p{
     font-size: 20px;
+    color: #252432;
+    opacity: 50%;
+}
+
+
+
+
+
+.feedback-section {
+  
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.feedback-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.stars {
+  color: #FFD700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feedback-card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #111;
+}
+
+.feedback-card p {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.focus{
+    align-items: center;
+    text-align: center;
+    padding: 200px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+.focus h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.focus img{
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.focus button{
+margin-top: 20px;
+}
+.focus p{
     color: #252432;
     opacity: 50%;
 }
