@@ -63,7 +63,8 @@ img{
 }
 .mid-content{
 max-width: 1300px;
-margin: auto;
+margin: 0 auto;
+padding: 20px;
 }
 nav{
     display: flex;
